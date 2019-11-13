@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .div2 {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="div">0</div>
+  <div class="div">1</div>
+  <!-- <script type="text/javascript" src="./jquery-3.4.1.js"></script> -->
+  <!-- <script>
+    // window.onload = function () {
+    //   alert(1)
+    // }
+    // $(function () {
+    //   alert(1)
+    // })
+    // $(function () {
+    //   alert(2)
+    // })
+    // $(function () {
+    //   alert(3)
+    // })
+
+    // 改变this的指向，传参方式不一样
+    // var a = 10
+    // var obj = {
+    //   a: 20,
+    //   fn: function (a, b, c) {
+    //     console.log(a, b, c)
+    //   }
+    // }
+    // obj.fn.call(window, 100, 200, 300)
+    // obj.fn.apply(obj, [100, 300, 300])
+  </script> -->
+
+  <script>
+    // $(function () {
+    //   var $divs = $('.div')
+    //   console.log($divs)
+    //   console.log(document.querySelectorAll('.div')) // 类数组
+    //   $divs.addClass('div2').css({
+    //     backgroundColor: '#000',
+    //     color: '#fff'
+    //   }).text('div')
+    // })
+    /*
+      $是jquery核心函数
+      1、使用重载 考虑如何设计的
+      2、如何通过选择器批量返回目标对象 返回的是什么对象
+        document.querySelectorAll
+      3、链式操作如何实现
+    */
+  </script>
+  <script src="./jquery-my.js"></script>
+</body>
+</html>
